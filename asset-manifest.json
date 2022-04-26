@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.0a2dca77.css",
+    "main.css": "/react-portfolio/static/css/main.8d43fae0.css",
     "main.js": "/react-portfolio/static/js/main.37aefce6.js",
     "static/media/Profile_pic.png": "/react-portfolio/static/media/Profile_pic.c93d5a5f9f7562c4b7e2.png",
     "static/media/musicapp.png": "/react-portfolio/static/media/musicapp.f1c301f91904ef5f9249.png",
@@ -10,11 +10,11 @@
     "static/media/wave.png": "/react-portfolio/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/bubblegame.jpeg": "/react-portfolio/static/media/bubblegame.5d9dd2a426998616258a.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.0a2dca77.css.map": "/react-portfolio/static/css/main.0a2dca77.css.map",
+    "main.8d43fae0.css.map": "/react-portfolio/static/css/main.8d43fae0.css.map",
     "main.37aefce6.js.map": "/react-portfolio/static/js/main.37aefce6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a2dca77.css",
+    "static/css/main.8d43fae0.css",
     "static/js/main.37aefce6.js"
   ]
 }
