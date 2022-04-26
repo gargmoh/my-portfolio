@@ -1,13 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
-import img from './IMG_9899.jpg';
+import Navbar from "./Components/Navbar/Navbar";
+import Intro from "./Components/Intro/Intro";
+import Services from "./Components/Services/Services";
+import Experience from "./Components/Experience/Experience";
+import Works from "./Components/Works/Works";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
+import {themeContext} from './Context';
+import { useContext } from "react";
 
 function App() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="App">
-     <h1>My First React based Website</h1>
-     <h2> Mohit Garg</h2>
-     <img src={img} alt="profileimage" />
+    <div 
+    style ={{
+      background : darkMode? 'black': '',
+      color : darkMode? 'white': ''
+    }}
+    className="App">
+     
+     <Navbar />
+     <Intro/>
+    <Services/>
+    <Experience/>
+    <Works/>
+    <Portfolio/>
+   <Contact />
+   <Footer/>
     </div>
   );
 }

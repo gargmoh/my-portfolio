@@ -1,0 +1,83 @@
+.services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 30rem;
+    margin-bottom: 8rem;
+    margin-top: 0rem;
+    margin-bottom: 13rem;
+  }
+  
+  /* left side */
+  .show{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      /* gap: 20px; */
+    }
+  
+    .show > :nth-child(1) {
+      color: var(--black);
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  
+    .show > :nth-child(2) {
+      color: var(--orange);
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .show > :nth-child(3) {
+      color: var(--gray);
+      font-size: 14px;
+      margin-top: 1rem;
+    }
+  
+    .s-button {
+      width: 10rem;
+      height: 4rem;
+      margin-top: 1rem;
+      text-align: center;
+      position: absolute;
+    }
+  
+    .experiences{
+      position: relative;
+    }
+  
+    .experiences>*{
+      position: absolute;
+    }
+    .c-button:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+  
+  .s-blur2{
+      left: 14rem;
+      top:  8rem;
+  }
+  
+  .s-blur1{
+    left: 13rem;
+    top:  -8rem;
+  }
+  @media screen and (max-width: 480px) {
+    .services {
+      margin-top: 2rem;
+      flex-direction: column;
+      gap: 5rem;
+      height: 66rem;
+      padding: 0;
+    }
+  
+    .experiences {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 17rem;
+      
+    }
+    .experiences > * {
+      position: static;
+    }
+  }
