@@ -10,7 +10,6 @@ export const Card = ({emoji, heading, details}) => {
     </span>
     <span>{details}
     </span>
-    <button className='c-button'>Learn More</button>
     </div>
   )
 }

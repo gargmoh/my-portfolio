@@ -18,12 +18,13 @@ export const Services = () => {
     <div className='services' id='Services'>
         {/* left side */}
     <div className='show'>
-    <span style={{color: darkMode? 'white': ''}}>Achieved</span>
+    <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
         <span>Skills</span>
         <span>
-        Lorem ispum is simpley dummy text of printing of printing Lorem
+          Gained the skills with hands-on experience and have
           <br />
-          ispum is simpley dummy text of printing
+          worked in field to apply the skills to increase company<br />
+          productivity and acheived the desired goals.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download Resume</button>
@@ -34,8 +35,8 @@ export const Services = () => {
         {/* right side */}
         <div className='experiences'>
           <motion.div 
-          initial={{ left: "25rem" }}
-          whileInView={{ left: "14rem" }}
+          initial={{ left: "35rem" }}
+          whileInView={{ left: "24rem" }}
           transition={transition}
           >
              {/* first expertise */}
@@ -49,20 +50,20 @@ export const Services = () => {
 
           {/* second expertise */}
           <motion.div 
-           initial={{ left: "-11rem", top: "12rem" }}
+           initial={{ left: "-5rem", top: "12rem" }}
            whileInView={{ left: "-4rem" }}
            transition={transition}>
           <Card
             emoji={network}
             heading={"Design & Networking"}
-            details={"Windows, Mac-OS Installation & Support, LAN & WAN Troubleshooting, Deep Analysis of Network"}
+            details={"Windows, Mac-OS Installation & Support, LAN & WAN Troubleshooting"}
           />
           </motion.div>
 
            {/* third expertise */}
            <motion.div 
-           initial={{ top: "19rem", left: "18rem" }}
-           whileInView={{ left: "12rem" }}
+           initial={{ top: "25rem", left: "35rem" }}
+           whileInView={{ left: "24rem" }}
            transition={transition}>
           <Card
             emoji={cloud}

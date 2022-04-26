@@ -5,17 +5,18 @@
     flex-direction: column;
     height: 70vh;
     margin-top: 10rem;
+    text-align: center;
   }
   /* heading */
-  .portfolio span:nth-of-type(1) {
+  .projects  {
     color: var(--black);
     font-size: 2rem;
     font-weight: bold;
-  }
-  .portfolio span:nth-of-type(2) {
-    color: var(--orange);
-    font-size: 2.5rem;
-    font-weight: bold;
+    border-color: var(--orange);
+    border-radius: 40px;
+    border: 7px solid var(--orangeCard);
+    padding: 2px 16px 2px 16px;
+    
   }
     /* slider */
 .portfolio .swiper{
@@ -28,8 +29,13 @@
   .portfolio-slider .swiper-slide{
       width: 20rem;
   }
-  .portfolio img {
-    width: 20rem;
+  .portfolio-slider .two{
+    width: 10px;
+}
+  .swiper-slide img {
+    width: 80%;
+    height: 80%;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
+    
   }

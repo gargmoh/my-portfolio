@@ -12,10 +12,12 @@
 }
 
 .App{
-    padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);    
+    font-family: 'Roboto', sans-serif;
 }
+
+
 
 .button{
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);

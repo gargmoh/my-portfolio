@@ -1,16 +1,21 @@
 .intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  background-color: rgb(90 88 88 / 25%)
 }
 
 /* left side styling */
 .i-left {
   display: flex;
   position: relative;
-  flex: 1;
+  flex: auto;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  
 }
 
 .i-name{
@@ -33,15 +38,17 @@
   font-weight: 100;
   font-size: 14px;
   margin-top: 10px;
+  line-height: 1.5;
 }
 .i-button{
-  width:6rem;
-  height: 2rem;
+  width:8rem;
+  height: 3rem;
 }
 .i-icons {
-  margin-top: 3rem;
+  margin-top: 0rem;
   display: flex;
   gap: 0rem;
+  justify-content: center;
 }
 .i-icons > * {
   transform: scale(0.5);
@@ -58,28 +65,10 @@
   position: absolute;
   z-index: 1;
 }
-.i-right > :nth-child(1) {
-  transform: scale(0.69);
-  left: -15%;
-  top: -9%;
-}
-.i-right > :nth-child(2) {
-  top: -4.6rem;
-  transform: scale(0.67);
-  left: -3rem;
-}
-.i-right > :nth-child(3) {
-  transform: scale(0.2);
-  left: -49%;
-  top: -44.6rem;
-}
 
-.i-right > :nth-child(4) {
-  transform: scale(0.62);
-  top: -19%;
-  left: -24%;
-  border-radius: 50%;
-  padding: 0;
+.i-right .cus_profile {
+  width: 85%;
+  height: 550px
 }
 
 /* blur */
@@ -121,9 +110,9 @@
   margin-bottom: 10rem;
 }
 
-.i-right {
-  transform: scale(0.8);
-  left: -3rem;
+.i-right .cus_profile {
+  width: 60%;
+  position:relative
 }
 .i-right .blur {
   display: none;
@@ -132,4 +121,8 @@
   /* display: none; */
   top: -7rem !important;;
 }
+
+
+
+
 }

@@ -3,7 +3,7 @@ import './Works.css'
 import Upwork from "../../img/Upwork.png";
 import cogeco from "../../img/cogeco.png";
 import Amazon from "../../img/amazon.png";
-import tp from "../../img/tp.png";
+import tp from "../../img/tp_prev_ui.png";
 import teranet from "../../img/teranet.jpeg";
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
@@ -22,11 +22,11 @@ export const Works = () => {
         <span style={{color: darkMode? 'white': ''}}>Works for All these</span>
         <span>Compaines & Clients</span>
         <span>
-        Lorem ispum is simpley dummy text of 
+        Worked for all these companies
         <br />
-        printing of printing Lorem
+        and have gained a lot of experience and have enhanced
         <br />
-        ispum is simpley dummy text of printing
+        the skill set and also have develop the interest to build more of software.
         </span>
         <Link spy={true} to='Contact' smooth={true}>
         <span> <button className="button s-button">Hire Me</button> 

@@ -17,8 +17,9 @@ export const Portfolio = () => {
     <div className="portfolio" id='Portfolio'>
 
         {/* Heading */}
-        <span style={{color: darkMode? 'white': ''}}> My Projects</span>
-        <span>Portfolio</span>
+
+        <span className='projects' style={{color: darkMode? 'white': ''}}> My Projects<br />
+        Portfolio</span>
 
         {/* slider */}
        <Swiper
@@ -28,13 +29,13 @@ export const Portfolio = () => {
             className="portfolio-slider"
            >
        <SwiperSlide>
-          <img src={blackjack} alt="" />
+          <a href='https://github.com/gargmoh/BlackJack-Game' target="_blank"><img src={blackjack} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={bubblegame} alt="" />
+        <a href='https://github.com/gargmoh/BubbleGame' target="_blank"> <img src={bubblegame} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={sms} alt="" />
+       <a href='https://github.com/gargmoh/StudentManagementSystem' target="_blank"><img src={sms} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
