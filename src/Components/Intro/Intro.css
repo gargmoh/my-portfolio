@@ -3,7 +3,7 @@
   height: 77vh;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  background-color: rgb(90 88 88 / 25%)
+  
 }
 
 /* left side styling */
@@ -67,7 +67,7 @@
 }
 
 .i-right .cus_profile {
-  width: 85%;
+  width: auto;
   height: 510px
 }
 

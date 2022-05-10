@@ -22,9 +22,10 @@ const Intro =() =>{
 
            <span style={{color: darkMode? 'white': ''}}>Hello! I'm</span>
            <span>Mohit Garg</span>
-           <span>Software & Network Engineer <br/>
-               experience in HTML, CSS,JAVA,C#,Node.js,<br/>
-                React,Python,.NET, Cloud Computing
+           <span>Software Engineer <br/>
+               Experience in AWS, Google Cloud Services, <br/>
+               HTML, CSS,JAVA,C#,Node.js,<br/>
+                React,Python,.NET 
            </span>
            </div>
            <Link spy={true} to='Contact' smooth={true}>
@@ -32,9 +33,9 @@ const Intro =() =>{
                Hire Me</button>
                </Link>
             <div className='i-icons'>
-            <a href='https://github.com/gargmoh' target="_blank"><img src={Github} alt="" /></a>
-                <a href='https://www.linkedin.com/in/mohit1997/' target="_blank"><img src={Linkedin} alt="" /></a>
-            <a href='https://www.instagram.com/' target="_blank"> <img src={Instagram} alt="" /></a>
+            <a href='https://github.com/gargmoh' target='_blank' rel="noreferrer"><img src={Github} alt="" /></a>
+            <a href='https://www.linkedin.com/in/mohit1997/' target='_blank' rel="noreferrer"><img src={Linkedin} alt="" /></a>
+            <a href='https://www.instagram.com/' target='_blank' rel="noreferrer"> <img src={Instagram} alt="" /></a>
             </div>
 
        </div>

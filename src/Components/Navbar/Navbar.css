@@ -12,16 +12,19 @@
 }
 
 .n-name{
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     font-weight: bold;
+    font-family: monospace;
+    margin-left: 25px;
 }
 
 .n-right{
     display: flex;
     flex: 5;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     font-weight: 400;
+    margin-right: 45px;
 }
 
 .n-list>ul{

@@ -10,11 +10,11 @@ export const Footer = () => {
    <div className="footer">
     <img src={Wave} alt="" style={{ width: "100%" }} />
     <div className="f-content">
-        <span>kishulehra@gmail.com</span>
+        <span>mohit.garg1605@gmail.com</span>
         <div className="f-icons">
-        <a href='https://www.linkedin.com/in/mohit1997/' target="_blank"><Linkedin color="white" size={"3rem"} /></a>
+        <a href='https://www.linkedin.com/in/mohit1997/' target="_blank" rel="noreferrer"><Linkedin color="white" size={"3rem"} /></a>
         <a href='www.facebook.com' target="_blank"><Facebook color="white" size={"3rem"} /></a>  
-          <a href='https://github.com/gargmoh' target="_blank"><Gitub color="white" size={"3rem"} /></a> 
+          <a href='https://github.com/gargmoh' target="_blank" rel="noreferrer"><Gitub color="white" size={"3rem"} /></a> 
         </div>
       </div>
 
