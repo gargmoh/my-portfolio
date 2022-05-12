@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 import developer from "../../img/dev.png";
 import network from "../../img/network.jpeg";
 import cloud from "../../img/cloud.png";
-import Resume from "./My-Resume.pdf"
+import Resume from "./Mohit-Garg.pdf"
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import {motion} from 'framer-motion';
@@ -43,7 +43,7 @@ export const Services = () => {
              <Card
             emoji={developer}
             heading={"Developer"}
-            details={"HTML, CSS, Javascript, React, Java, C#, PHP, React, .NET"}
+            details={"HTML, CSS, Javascript, React, Java, PHP, Python"}
           />
           </motion.div> 
          
