@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.4dcd94ac.css",
-    "main.js": "/my-portfolio/static/js/main.ac6aebcc.js",
+    "main.js": "/my-portfolio/static/js/main.b825245b.js",
     "static/media/Profile_pic.png": "/my-portfolio/static/media/Profile_pic.c93d5a5f9f7562c4b7e2.png",
     "static/media/musicapp.png": "/my-portfolio/static/media/musicapp.f1c301f91904ef5f9249.png",
-    "static/media/My-Resume.pdf": "/my-portfolio/static/media/My-Resume.28a8e2529482c59e27dc.pdf",
+    "static/media/Mohit-Garg.pdf": "/my-portfolio/static/media/Mohit-Garg.8ca4a7afdb9c5d5e1faf.pdf",
     "static/media/tp_prev_ui.png": "/my-portfolio/static/media/tp_prev_ui.66e6f421794b1342d4af.png",
     "static/media/blackjack.jpeg": "/my-portfolio/static/media/blackjack.0c6d4c392d2edf0eb502.jpeg",
     "static/media/wave.png": "/my-portfolio/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/bubblegame.jpeg": "/my-portfolio/static/media/bubblegame.5d9dd2a426998616258a.jpeg",
     "index.html": "/my-portfolio/index.html",
     "main.4dcd94ac.css.map": "/my-portfolio/static/css/main.4dcd94ac.css.map",
-    "main.ac6aebcc.js.map": "/my-portfolio/static/js/main.ac6aebcc.js.map"
+    "main.b825245b.js.map": "/my-portfolio/static/js/main.b825245b.js.map"
   },
   "entrypoints": [
     "static/css/main.4dcd94ac.css",
-    "static/js/main.ac6aebcc.js"
+    "static/js/main.b825245b.js"
   ]
 }
