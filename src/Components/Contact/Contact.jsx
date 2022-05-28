@@ -7,10 +7,11 @@ import { themeContext } from '../../Context';
 import { useContext } from 'react';
 
 const Contact = () => {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     const form = useRef();
     const [done, setDone] = useState(false);
+   
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -19,7 +20,7 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             setDone(true);
-            form.reset();
+           
         }, (error) => {
             console.log(error.text);
         });
@@ -40,7 +41,6 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <input type="text" name="subject" className="user" placeholder="Subject"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for contacting me!!"}</span>
